@@ -1,0 +1,39 @@
+.wrapperPost{
+    display: grid;
+    margin-top: 80px;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(3, 250px);
+    gap: 50px 50px;
+    &>div{
+        height: 300px;
+        border: 1px solid black;
+        text-align: center;
+        padding: 0px 20px;
+        &>.title{
+            background-color: black;
+            color: aliceblue;
+            padding: 20px 20px;
+        }
+        &>.text{
+            margin: 50px 0px;
+            width: 100%;
+            word-break: keep-all;
+            hyphens: none;
+            word-wrap: break-word;
+        }
+        &>.userAndLike{
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+}
+
+.wrapperPostPage{
+    &>button{
+        margin-top: 80px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+        right: 50%;
+    }
+}

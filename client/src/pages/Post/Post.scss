@@ -1,0 +1,33 @@
+.postPage{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0px;
+    &>._info{
+        border: 1px solid black;
+        width: 500px;
+        height: 500px;
+        text-align: center;
+        &>*{
+            margin-top: 30px;
+        }
+        &>div:last-of-type{
+            margin-top: 65%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 20px;
+
+    justify-content: space-around;
+    &>label{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
